@@ -1,0 +1,13 @@
+Library,Operation,MatrixSize,Time_ms
+OpenBLAS,Multiplication,1000,13.932
+OpenBLAS,Addition,1000,1.012
+OpenBLAS,Multiplication,5000,551.497
+OpenBLAS,Addition,5000,1.002
+OpenBLAS,Multiplication,10000,2168.29
+OpenBLAS,Addition,10000,1.003
+MKL,Multiplication,1000,14.958
+MKL,Addition,1000,0.997
+MKL,Multiplication,5000,486.24
+MKL,Addition,5000,0.997
+MKL,Multiplication,10000,2157.98
+MKL,Addition,10000,0.999

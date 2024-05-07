@@ -1,0 +1,7 @@
+Library,Operation,MatrixSize,Time_ms
+CUDA,Multiplication,1000,0.5935
+CUDA,Addition,1000,0.1523
+CUDA,Multiplication,5000,15.3151
+CUDA,Addition,5000,0.7877
+CUDA,Multiplication,10000,5.6707
+CUDA,Addition,10000,0.1393

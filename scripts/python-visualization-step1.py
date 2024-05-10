@@ -60,8 +60,8 @@ def plot_comparison_graphs(csv_file):
     plt.tight_layout()
     plt.show()
     # Optionally save the figure
-    plt.savefig('../data/Step1_comparison_graphs.png')
+    plt.savefig('data/Step1_comparison_graphs.png')
 
 # Path to the CSV file
-csv_file_path = '../data/performance_data_cpu_20240506_BLAS_MKL.csv'  # Modify this path to your actual CSV file path
+csv_file_path = 'data/performance_data_cpu_20240506_BLAS_MKL.csv'  # Modify this path to your actual CSV file path
 plot_comparison_graphs(csv_file_path)

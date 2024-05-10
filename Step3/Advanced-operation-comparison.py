@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-os.chdir('../data')
+os.chdir('data')
 
 def read_data_and_plot(ax, file_cpu, file_python, operation_name):
     # Read data, skipping the first row (header assumed)

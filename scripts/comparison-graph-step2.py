@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 
 def read_and_prepare_data():
     # Read CPU and GPU performance data
-    df_cpu = pd.read_csv("../data/performance_data_cpu_20240506_BLAS_MKL.csv")
+    df_cpu = pd.read_csv("data/performance_data_cpu_20240506_BLAS_MKL.csv")
     
     # Read GPU performance data, skipping the first row (header)
-    df_gpu = pd.read_csv("../data/performance_data_gpu_20240506.csv", header=0)
+    df_gpu = pd.read_csv("data/performance_data_gpu_20240506.csv", header=0)
 
     # Combine the two DataFrames
     df = pd.concat([df_cpu, df_gpu], ignore_index=True)
@@ -51,7 +51,7 @@ def create_comparison_graph(df):
     # Show plot before saving for debugging
     plt.show()
     # Save the figure to a file
-    plt.savefig('../data/Step1_2_performance_comparison.png')
+    plt.savefig('data/Step1_2_performance_comparison.png')
 
 def main():
     df = read_and_prepare_data()
